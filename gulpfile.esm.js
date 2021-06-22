@@ -1,4 +1,4 @@
-import {parallel, src, dest, watch} from 'gulp';
+import {parallel, src, dest, watch as gulpwatch} from 'gulp';
 import markdown from 'gulp-markdown';
 import headerfooter from 'gulp-headerfooter';
 
@@ -14,6 +14,12 @@ const fonts = cb => {
     cb();
 };
 
+const images = cb => {
+    src('img/*')
+        .pipe(dest('docs/img'));
+    cb();
+};
+
 const md = cb => {
     src('cube.md')
         .pipe(markdown())
@@ -23,12 +29,14 @@ const md = cb => {
     cb();
 };
 
-const watchfiles = () => {
-    watch('css/*', css);
-    watch('fonts/*', fonts);
-    watch('*.md', md);
-}
+export const compile = parallel(css, fonts, images, md);
 
-const compile = parallel(css, fonts, md);
+export const watch = () => {
+    compile();
+    gulpwatch('css/*', css);
+    gulpwatch('fonts/*', fonts);
+    gulpwatch('img/*', images);
+    gulpwatch('./*.md', md);
+}
 
 export default compile;
