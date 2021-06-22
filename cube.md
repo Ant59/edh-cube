@@ -3,9 +3,13 @@
 * 540 card cube
 * 60 card decks
 * 3 packs of 21 cards
-* Custom relics
+
 * Conspiracies
 * Draft-matters cards
+* Custom relics
+
+![Austere Stone](img/Austere%20Stone.png)
+![Mark of Kinship](img/Mark%20of%20Kinship.png)
 
 # Archetypes
 
