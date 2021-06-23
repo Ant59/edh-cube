@@ -8,7 +8,7 @@ http://cubecobra.com/cube/list/1ebv
 
 * 540 card cube
 * 60 card decks
-* 3 packs of 21 cards
+* 3 packs of 20 cards
 
 ### Cube Additions
 
@@ -21,25 +21,29 @@ http://cubecobra.com/cube/list/1ebv
 
 ## Archetypes
 
-There are a number of core archetypes which should be available to all drafters.
+The cube requires balanced archetypes to guide drafting and build cohesive decks.
+
+### Core Elements
+
+There are a number of core elemnts which should be available to all drafters.
 
 * Card draw
 * Ramp
 * Control
 * Aggro
+* Removal
 
 For each guild, a specific primary and secondary archetype.
 
 ### <i class="ms ms-wu ms-cost"></i> Azorius
 * Flicker
-* Control
+* Stax
 
 ![Yorion, Sky Nomad](img/iko-232-yorion-sky-nomad.jpg)
 ![Lavinia of the Tenth](img/dgm-80-lavinia-of-the-tenth.jpg)
 
 ### <i class="ms ms-ub ms-cost"></i> Dimir
-* Rogue tribal
-* Faerie tribal
+* Rogue/Faerie tribal
 * Mill
   
 ![Anowon, the Ruin Thief](img/znc-1-anowon-the-ruin-thief.jpg)
