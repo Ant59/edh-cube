@@ -109,8 +109,8 @@ For each guild, a specific primary and secondary archetype.
 * Eldrazi tribal
 * Control
 
-![Bruna, the Fading Light - Add Partner](img/emn-15a-bruna-the-fading-light.jpg)
-![Gisela, the Broken Blade - Add Partner](img/emn-28-gisela-the-broken-blade.jpg)
+![Gisela, the Broken Blade - Partner](img/Gisela%20the%20Broken%20Blade.png)
+![Bruna, the Fading Light - Partner](img/Bruna%20the%20Fading%20Light.png)
 
 ### <i class="ms ms-multicolor ms-cost ms-duo ms-duo-color ms-grad"></i> WUBRG
 * Domain
